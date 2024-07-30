@@ -1,0 +1,33 @@
+.property-with-agent {
+    padding: 20px;
+  }
+  
+  .agents-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .agent-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .agent-image {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .agent-card h4 {
+    margin: 10px 0;
+  }
+  
+  .agent-card p {
+    margin: 5px 0;
+  }
+  

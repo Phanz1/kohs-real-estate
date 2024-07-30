@@ -1,0 +1,33 @@
+/* src/components/NavBar.css */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar-logo {
+  height: 50px;
+}
+
+.menu-item {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.login-button {
+  margin-left: auto;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}

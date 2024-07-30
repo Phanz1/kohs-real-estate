@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+/* index.css or App.css */
+
+body {
+  background-color: #2DE0E2;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#root {
+  height: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.app-container {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.footer .links,
+.footer .social,
+.footer .contact {
+  flex: 1;
+}
+
+.footer .links ul,
+.footer .contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer .links li,
+.footer .contact li {
+  margin-bottom: 10px;
+}
+
+.footer .links a,
+.footer .social a,
+.footer .contact a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer .social a {
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+.footer .contact li {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.footer .contact li svg {
+  margin-right: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer .bottom {
+  border-top: 1px solid #444;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

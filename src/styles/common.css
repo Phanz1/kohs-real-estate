@@ -1,0 +1,32 @@
+/* src/styles/common.css */
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-input {
+  flex: 1;
+}
+
+.search-button {
+  flex-shrink: 0;
+}
+
+.card-img-top {
+  max-height: 250px;
+  object-fit: contain; /* Maintain aspect ratio without cropping */
+}
+
+
+.rating-star {
+  display: inline-block;
+  margin-right: 4px; /* Adjust spacing between stars as needed */
+}
+
+.combined-search .input-divider {
+  width: 1px;
+  background-color: #ccc;
+  margin: 0 10px;
+}

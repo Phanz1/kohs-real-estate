@@ -1,0 +1,11 @@
+/* src/pages/OurTeam.css */
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.card-body {
+  text-align: center;
+}
